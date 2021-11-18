@@ -13,7 +13,7 @@ if __name__=='__main__':
 
     address=None
 
-    while sensor_address is None:
+    while address is None:
         devices = scanner.scan(10.0)
         for dev in devices:
             addr=dev.addr
